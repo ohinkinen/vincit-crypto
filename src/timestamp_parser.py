@@ -1,9 +1,10 @@
 import calendar
-from askDatetime import askDatetime
+from ask_datetime import ask_datetime
 
-def parseUTCTimestamp(message):
+
+def parse_utc_timestamp(message):
     while True:
-        date = askDatetime(message)
+        date = ask_datetime(message)
 
         try:
             utc_time = calendar.timegm(date.utctimetuple())

@@ -1,6 +1,7 @@
 from dateutil.parser import parse
 
-def askDatetime(message):
+
+def ask_datetime(message):
     while True:
         try:
             date = parse(input(message + " (format: dd-mm-yyyy): "), dayfirst=True)
