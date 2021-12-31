@@ -1,6 +1,6 @@
 from pycoingecko import CoinGeckoAPI
-from timestamp_parser import parse_utc_timestamp
-from days_from_start_to_end import days_between
+from src.timestamp_parser import parse_utc_timestamp
+from src.days_from_start_to_end import days_between
 
 cg = CoinGeckoAPI()
 

@@ -1,6 +1,6 @@
-from longest_downward_trend import longest_downward
-from highest_volume import highest_volume_date
-from buy_and_sell import buy_and_sell
+from src.longest_downward_trend import longest_downward
+from src.highest_volume import highest_volume_date
+from src.buy_and_sell import buy_and_sell
 
 
 def data_analysis(prices, volume, days):
