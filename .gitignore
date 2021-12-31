@@ -1,0 +1,5 @@
+# virtualenv
+venv
+
+# intellij files
+.idea
